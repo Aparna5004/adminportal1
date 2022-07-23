@@ -1,0 +1,151 @@
+.heading h1 {
+    left: 400px;
+    top: 80px;
+    position: absolute;
+    font-size: 30px;
+    word-spacing: 1px;
+    font-weight: 500;
+    font-family: poppins;
+    color: #5E5E5E;
+}
+
+.heading p {
+    position: absolute;
+    width: 254px;
+    height: 42px;
+    left: 469px;
+    top: 133px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.explore button {
+    position: absolute;
+    width: 184px;
+    height: 35px;
+    left: 506px;
+    top: 190px;
+    border: white;
+    background: #0076FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: poppins;
+    color: white;
+}
+
+.para h2 {
+    position: absolute;
+    width: 97px;
+    height: 21px;
+    left: 555px;
+    top: 252px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #0076FF;
+}
+
+.pic img {
+    position: absolute;
+    left: 41.86%;
+    right: 40.07%;
+    top: 50%;
+    bottom: 34.47%;
+
+
+}
+
+.source h1 {
+    position: absolute;
+    width: 587px;
+    height: 85px;
+    left: 323px;
+    top: 509px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.source p {
+    position: absolute;
+    width: 501px;
+    height: 24px;
+    left: 383px;
+    top: 587px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #4F4F4F;
+}
+
+.search input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 558px;
+    height: 48px;
+    left: 337px;
+    top: 700px;
+
+    background: #FFFFFF;
+    border: 1px solid #7B7B7B;
+    box-shadow: 0px 0px 4px #D9D9D9;
+    border-radius: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 10px;
+
+    color: #D9D9D9;
+}
+
+.search button {
+    position: absolute;
+    width: 100px;
+    height: 41px;
+    left: 781px;
+    top: 760px;
+    border: #0076FF;
+    background: #0076FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.list li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #4F4F4F
+}

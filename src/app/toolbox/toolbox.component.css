@@ -1,0 +1,126 @@
+.head h1 {
+    position: absolute;
+    width: 592px;
+    height: 72px;
+    left: 290px;
+    top: 70px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.head p {
+    position: absolute;
+    width: 561px;
+    height: 94px;
+    left: 250px;
+    top: 130px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.rectangle {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 864px;
+    height: 470px;
+    left: 110px;
+    top: 181px;
+
+    border: 1px solid #949494;
+    border-radius: 20px;
+}
+
+.rectangle .sales h1 {
+    position: absolute;
+    width: 312px;
+    height: 42px;
+    left: 22px;
+    top: 54px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #5E5E5E;
+}
+
+.category input {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 360px;
+    height: 34px;
+    left: 30px;
+    top: 300px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 9px;
+}
+
+.limit {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 246px;
+    height: 128px;
+    left: 630px;
+    top: 296px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 9px;
+}
+
+.limit h1 {
+    position: absolute;
+    width: 165px;
+    height: 30px;
+    left: 45px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.limit p {
+    position: absolute;
+    width: 214px;
+    height: 42px;
+    left: 15px;
+    top: 59px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}

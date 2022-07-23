@@ -1,0 +1,171 @@
+<mat-sidenav-container autosize>
+    <mat-sidenav #sidenav mode="side" opened="true" style="background-color: #003167; ">
+        <mat-nav-list>
+            <mat-list-item style="height: 58px ;">
+                <mat-icon mat-list-icon class=" chevron-button sidenav-button" (click)="isExpanded = !isExpanded"
+                    [ngClass]="{'rotated' : isExpanded} "
+                    style="font-size: 20px ; padding-right:20px; font-weight:800; color: white;">U N</mat-icon>
+                <span *ngIf="isExpanded"><img src="assets/banner.png" style="width: 150px; height:40.88px;">
+                </span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'dashboard'" style="height:25px ;">
+                <!----  <mat-icon mat-list-icon style="color: white; font-size: 20px ;">drafts</mat-icon>-->
+                <img src="assets/home.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded"
+                    style="color:white ; font-size: 15px; font-family: poppins; margin: 4%;">Academy</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'toolbox'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">inbox</mat-icon>-->
+                <img src="assets/tool.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px; font-family: poppins; margin: 4%;">Tool
+                    Box</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'toolbox-listing'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">inbox</mat-icon>-->
+                <img src="assets/tool.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px; font-family: poppins; margin: 4%;">Tool
+                    Box-Listing</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'product-database'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Product Database</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'product-database1'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Product Database1</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'product-tracker'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Product Tracker</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'opportunity-finder'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Opportunity Finder</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'category-trends'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Category Trends</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'supplier-database'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Supplier Database</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'supplier-tracker'" style="height:25px ;">
+                <!--<mat-icon mat-list-icon style="color: white; font-size: 20px ;">search</mat-icon>-->
+                <img src="assets/product.png" style="width: 20px; height:20px; ">
+                <span *ngIf="isExpanded">Supplier Tracker</span>
+            </mat-list-item>
+            <mat-list-item style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">factory</mat-icon>
+                <span *ngIf="isExpanded">Home</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'keywords'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">key</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Keywords</span>
+            </mat-list-item>
+            <!---- <mat-list-item [routerLink]="'keywordsscout'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">key</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Keywords Scout</span>
+            </mat-list-item>-->
+            <!--<mat-list-item [routerLink]="'listing-builder'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">key</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Listing Builder</span>
+            </mat-list-item>-->
+            <mat-list-item [routerLink]="'marketing-promotions'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">campaign</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Marketing Promotions</span>
+            </mat-list-item>
+            <!--<mat-list-item [routerLink]="'marketing-review-automation'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">campaign</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Marketing Review Automation</span>
+            </mat-list-item>-->
+            <mat-list-item [routerLink]="'other-transactions'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">leaderboard</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Other Transactions</span>
+            </mat-list-item>
+            <!---- <mat-list-item [routerLink]="'sales-pl-statement'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">leaderboard</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Sales P&L Statement</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'sales-profit-overview'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">leaderboard</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Sales Profit Overview</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'sales-profit-overview'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">leaderboard</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Sales Profit Overview</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'the-extension'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">leaderboard</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">The Extension</span>
+            </mat-list-item>-->
+            <mat-list-item [routerLink]="'rank-traker'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">leaderboard</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Rank Traker</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'ads'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">analytics</mat-icon>
+                <span *ngIf=" isExpanded" style="color:white ; font-size: 15px;">ADS Analystic</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'inventory'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">inventory</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Inventory Manager</span>
+            </mat-list-item>
+            <!--<mat-list-item [routerLink]="'products-costs'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">inventory</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Products Costs</span>
+            </mat-list-item>
+            <mat-list-item [routerLink]="'product-settings'" style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">inventory</mat-icon>
+                <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Product Settings</span>
+            </mat-list-item>-->
+            <hr style="margin-top: 5px;color:black;">
+            <mat-list-item style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">school</mat-icon>
+                <span *ngIf="isExpanded">Home</span>
+            </mat-list-item>
+            <hr style="margin-top: 5px;color:black;">
+            <mat-list-item style="height:25px ;">
+                <mat-icon mat-list-icon style="color: white; font-size: 20px ;">cast</mat-icon>
+                <span *ngIf="isExpanded">Home</span>
+            </mat-list-item>
+
+            <div class="bottom" style="bottom:0; position: absolute; padding-bottom:25px ;">
+                <hr style="margin-top: 5px;color:black;">
+                <mat-list-item style="height:25px ;">
+                    <mat-icon mat-list-icon style="color: white; font-size: 20px ;">lock</mat-icon>
+                    <span *ngIf="isExpanded" style="color:white ; font-size: 15px;">Log Out</span>
+                </mat-list-item>
+            </div>
+        </mat-nav-list>
+
+
+    </mat-sidenav>
+
+
+
+    <mat-sidenav-content>
+
+        <mat-toolbar style="background-color: white; padding-left: 91%">
+            <mat-icon style="margin: 10px;">notifications active</mat-icon>
+            <mat-icon> person</mat-icon>
+
+
+        </mat-toolbar>
+        <!--<hr style="position: absolute;
+        width: 1298px;
+        height: 0px;
+        left: 1px;
+        top: 48px;
+        
+        border: 1px solid #003167;">-->
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+
+</mat-sidenav-container>

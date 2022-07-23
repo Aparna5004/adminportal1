@@ -1,0 +1,80 @@
+.save button {
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 1040px;
+    top: 80px;
+    background-color: #0076FF;
+    color: white;
+    font-family: poppins;
+    font-size: 14px;
+    border-radius: 10px;
+    border: white;
+}
+
+hr {
+    width: 1307px;
+    height: 0px;
+    border: 1px solid #4F4F4F;
+}
+
+span {
+    left: 180px;
+    top: 400px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #4F4F4F;
+}
+
+.form {
+    position: absolute;
+
+    left: 300px;
+    top: 330px;
+}
+
+.form ul {
+    list-style-type: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+
+.list {
+    position: absolute;
+
+    left: 450px;
+    top: 350px
+}
+
+.list ul {
+    list-style-type: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F4F4F
+}
+
+label {
+    left: 180px;
+    top: 600px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4F4F4F;
+}

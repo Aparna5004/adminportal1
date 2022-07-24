@@ -1,3 +1,13 @@
+body {
+    position: absolute;
+    width: 1207px;
+    height: 0px;
+    left: 3px;
+    top: 2px;
+
+
+}
+
 .rectangle {
     box-sizing: border-box;
 
@@ -42,4 +52,127 @@
     width: 246px;
     height: 38px;
 
+}
+
+.table {
+
+    width: 50%;
+}
+
+
+.table th {
+    background-color: #fff;
+    padding-bottom: 10px;
+
+    padding-left: 1px;
+    width: 601px;
+    height: 36px;
+    padding: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #5E5E5E;
+    background: #ECECEC;
+    border: 1px solid #4F4F4F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.table {
+    position: absolute;
+
+    left: 300px;
+    top: 360px;
+}
+
+.category {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 214px;
+    height: 528px;
+    left: 80px;
+    top: 340px;
+
+    border: 1px solid #4F4F4F;
+    border-radius: 9px;
+}
+
+.category ul {
+    position: absolute;
+
+    left: 23px;
+    top: 15px;
+}
+
+.category li {
+    list-style-type: none;
+    line-height: 26px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+
+
+
+    color: #4F4F4F;
+}
+
+.country img {
+    position: absolute;
+    width: 271px;
+    height: 57px;
+    left: 964px;
+    top: 350px;
+}
+
+.category td {
+    position: absolute;
+    width: 161px;
+    height: 62px;
+    left: 578px;
+    top: 450px;
+
+
+}
+
+.country h3 {
+    position: absolute;
+    width: 228px;
+    height: 21px;
+    left: 998px;
+    top: 532px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #949494;
+}
+
+.country p {
+    position: absolute;
+    width: 191px;
+    height: 34px;
+    left: 1010px;
+    top: 558px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #949494;
 }

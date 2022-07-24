@@ -287,3 +287,28 @@
 
     color: #949494;
 }
+
+@media(max-width:480px) {
+    .heading h1 {
+        position: absolute;
+        width: 252px;
+        height: 16px;
+        left: 20px;
+        top: 92px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        color: #000000;
+    }
+
+    .insight img {
+        position: absolute;
+        width: 150px;
+        height: 85px;
+        left: 60px;
+        top: 185px;
+    }
+
+}

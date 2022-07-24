@@ -1,5 +1,5 @@
 <mat-sidenav-container autosize>
-    <mat-sidenav #sidenav mode="side" opened="true" style="background-color: #003167; ">
+    <mat-sidenav #sidenav mode="side" opened="true" style="background-color: #003167;  ">
         <mat-nav-list>
             <mat-list-item style="height: 58px ;">
                 <mat-icon mat-list-icon class=" chevron-button sidenav-button" (click)="isExpanded = !isExpanded"
@@ -152,11 +152,19 @@
 
     <mat-sidenav-content>
 
-        <mat-toolbar style="background-color: white; padding-left: 91%">
-            <mat-icon style="margin: 10px;">notifications active</mat-icon>
-            <mat-icon> person</mat-icon>
+        <mat-toolbar style="background-color: white; 
+            width: 100%;">
+            <!----  <mat-icon style="margin: 10px;">notifications active</mat-icon>
+                <mat-icon> person</mat-icon>-->
+            <div class="icon" style="position: absolute;
+                left: 91.67%;
+                right: 2.66%;
+                top: 3.32%;
+                bottom: 93.42%;">
+                <img src="assets/bell.png">
+                <img src="assets/icon.png">
 
-
+            </div>
         </mat-toolbar>
         <!--<hr style="position: absolute;
         width: 1298px;
